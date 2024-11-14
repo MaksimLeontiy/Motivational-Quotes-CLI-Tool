@@ -5,7 +5,7 @@ async function getQuote() {
 
     try {
         // Request data from api endpoint
-        const response = await axios.get('https://zenquotes.io/api/rando')
+        const response = await axios.get('https://zenquotes.io/api/random')
 
         console.log("Here is a motivational quote for you:")
         // log the api response data
